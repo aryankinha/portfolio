@@ -10,7 +10,7 @@ export default function About() {
       {/* Title */}
       <h2 className="text-4xl font-bold mb-4">About Me</h2>
       <p className="text-neutral-400 text-center max-w-3xl mb-16">
-        I have solved 450+ problems on LeetCode with a rating of 1660 and a 288+ day streak. I build advanced web applications, specializing in backend development with Node.js, Express, and databases like MySQL, while creating interactive UIs with React and Tailwind CSS.
+        I have solved 500+ problems on LeetCode with a rating of 1660 and a 288+ day streak. I build advanced web applications, specializing in backend development with Node.js, Express, and databases like MySQL, while creating interactive UIs with React and Tailwind CSS.
       </p>
 
       {/* Journey / Description */}

@@ -1,19 +1,42 @@
 export default function Skills() {
   const skills = {
-    "Frontend Development": ["React", "Next.js", "JavaScript", "Tailwind CSS", "HTML", "CSS"],
-    "Backend Development": ["Node.js", "Express.js", "REST APIs", "Python","Prisma"],
-    "Database & Storage": ["MySQL"],
-    "Tools & Others": ["Git", "Figma"],
+    "Frontend Development": [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "TanStack Query",
+    ],
+    "Backend Development": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Python",
+      "Prisma",
+      "JWT",
+      "OAuth",
+    ],
+    "Database & Storage": ["MySQL", "MongoDB", "PostgreSQL",],
+    "Tools & Others": ["Git", "GitHub", "Figma", "Postman", "Docker", "Vercel"],
   };
 
-const currentFocus = ["AI/ML Basics", "Vector Embedding", "RAGS", "Web Scraping"];
+  const currentFocus = [
+    "AI/ML Basics",
+    "Vector Embedding",
+    "RAGS",
+    "Web Scraping",
+  ];
 
   return (
     <section className="min-h-screen bg-black text-white px-8 py-20">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Skills & Expertise</h2>
         <p className="text-gray-400 mb-16">
-          A comprehensive overview of my technical expertise and the technologies I work with.
+          A comprehensive overview of my technical expertise and the
+          technologies I work with.
         </p>
 
         <div className="grid md:grid-cols-2 gap-10 mb-20">
@@ -40,7 +63,8 @@ const currentFocus = ["AI/ML Basics", "Vector Embedding", "RAGS", "Web Scraping"
         <div className="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 backdrop-blur-sm">
           <h3 className="text-2xl font-semibold mb-4">Currently Working On</h3>
           <p className="text-gray-400 mb-6">
-            I’m continuously learning and exploring cutting-edge technologies to expand my skillset.
+            I’m continuously learning and exploring cutting-edge technologies to
+            expand my skillset.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {currentFocus.map((tech) => (

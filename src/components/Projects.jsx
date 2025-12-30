@@ -1,22 +1,28 @@
 import { ExternalLink, Github } from "lucide-react";
 
+import chatImg from "../images/chatapp_landingpage.png";
+import jwtImg from "../images/JWT.png";
+import weatherImg from "../images/weather.png";
+import ytImg from "../images/yt_clone.png";
+
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Chat App",
+      title: "Chatting App",
       description:
-        "OneSided Chat is a minimalist chat application where users can send and view their own messages — a space to talk, think, and express without expecting a reply.",
-      image: "src/images/chatapp_landingpage.png",
-      tech: ["React", "CSS", "Express", "Mysql"],
-      github: "https://github.com/aryankinha/chatApp",
+        "Real Time Chat is a minimalist real-time app for self-expression. Send messages instantly and watch your thoughts appear — no replies, no pressure.",
+      image: chatImg,
+      tech: ["React", "Tailwind CSS", "Express", "MongoDB", "Socket.io"],
+      live: "https://chatting-app-olive-eight.vercel.app/login",
+      github: "https://github.com/aryankinha/chattingAPP",
     },
     {
       id: 2,
       title: "JWT-auth",
       description:
         "Auth-backend-jwt is a secure, role-based authentication backend built with Node.js, Express, and MySQL. It uses bcrypt for password hashing and JWT for authentication and session management, supporting user and admin roles with complete CRUD operations.",
-      image: "src/images/JWT.png",
+      image: jwtImg,
       tech: ["Express", "JWT", "MySQL"],
       github: "https://github.com/aryankinha/auth-backend-jwt",
     },
@@ -25,7 +31,7 @@ export default function Projects() {
       title: "Weather",
       description:
         "A simple weather app that allows users to search for a city and get real-time weather updates, including temperature, humidity, wind speed, and weather conditions. The app fetches data from the API.",
-      image: "src/images/weather.png",
+      image: weatherImg,
       tech: ["HTML", "CSS", "Js", "DOM"],
       live: "https://aryankinha.github.io/Weather/",
       github: "https://github.com/aryankinha/Weather?tab=readme-ov-file",
@@ -35,7 +41,7 @@ export default function Projects() {
       title: "Youtube Clone",
       description:
         "YouTube Clone 🎥 📜 Overview A YouTube clone built with HTML and CSS, focusing on layout design",
-      image: "src/images/yt_clone.png",
+      image: ytImg,
       tech: ["React", "Express", "MongoDB"],
       live: "https://aryankinha.github.io/Youtube_Clone/",
       github: "https://github.com/aryankinha/Youtube_Clone",
